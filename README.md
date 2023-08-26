@@ -1,2 +1,2 @@
-# I-P
-Es un auxiliar de contaduría electrónico, el cual permite la optimización en los procesos contables de las medianos y pequeños negocios, buscando siempre la calidad y el progreso del los emprendedores.
+# What's New Games
+Queremos impulsar a los Freelancer's con trabajos sencillos y poder desenvolverse en su campo de manera practica.
