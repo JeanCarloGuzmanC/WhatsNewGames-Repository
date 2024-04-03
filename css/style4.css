@@ -1,0 +1,147 @@
+body {
+    background-color: rgb(80, 0, 126);
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+}
+body::-webkit-scrollbar-thumb{
+    background: purple;
+}
+
+.contenedor{
+    animation: aparecer 0.5s ease-out 0s forwards;
+    border-radius: 20px;
+    max-width: 1700px;
+    margin: auto;
+    padding: 50px;
+    background-color: hsl(276, 35%, 53%);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    height: 250vh;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    opacity: 0;
+    animation: aparecerAnimacion 1s forwards;
+}
+
+@keyframes aparecerAnimacion {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+}
+
+.enlaces{
+    margin-left: 100px;
+}
+
+.logo2{
+    margin-left: 100px;
+    width: 350px;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+}
+
+.link1{
+    display:inline-block;
+    margin-left: 550px;
+    color: black;
+    text-decoration: none;
+    background-color:skyblue;
+}
+
+.enlaces{
+    font-size: 150%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.enlaces ul a{
+    border-radius: 20px;
+    text-decoration:none ;
+    color: rgb(255, 255, 255);
+    padding:20px;
+    display: center;
+}
+
+.enlaces ul {
+    display: inline-block;
+    text-align:center ;
+}
+
+.enlaces ul a:hover{
+    background-color: purple;
+}
+
+li {
+    float: left;
+}
+  
+a {
+    display: block;
+    padding: 8px;
+    background-color: #000153;
+}
+
+.btn{
+    background-color: #000153;
+    padding: 20px 30px;
+    color: #ffff;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: 0px;
+    text-align: center;
+    margin-left: 700px;
+    margin-right: 700px;
+}
+
+.btn:hover{
+    background-color: purple;
+}
+
+.edt2{
+    margin-left: 6px;
+    width: 1700px;
+}
+
+.vid{
+    margin-left: 350px;
+}
