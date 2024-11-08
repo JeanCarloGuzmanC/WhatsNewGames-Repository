@@ -17,7 +17,7 @@ body::-webkit-scrollbar-thumb{
     padding: 50px;
     background-color: hsl(276, 35%, 53%);
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
-    height: 50vh;
+    height: 350vh;
 }
 
 @keyframes aparecer {
